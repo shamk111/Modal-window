@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+
+	<button class="modal__btn _modal-open" data-modal-open="modal-1">
+		Click me!
+	</button>
+
+
+	<div class="_modal" data-modal="modal-1">
+		<div class="modal-bg"><!--  для затемнения -->
+			<div class="modal-body">
+				<button class="modal-close">X</button>
+				<div class="modal-content modal-callback">
+					<h2 class="modal-callback__title">THIS IS A MODAL WINDOW</h2>
+					<div class="modal-callback__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla neque perferendis debitis itaque nam quo reprehenderit molestias quos ullam distinctio!</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
+
